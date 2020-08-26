@@ -1,0 +1,160 @@
+.invest_btn {
+	animation: animatebtn 3s linear infinite;
+}
+
+@keyframes animatebtn {
+	0% {
+		background-size: 100%;
+	}
+
+	50% {
+		background-size: 400%;
+	}
+
+	100% {
+		background-size: 100%;
+	}
+}
+
+.invest_btn:before {
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index: -1;
+	background-image: linear-gradient(90deg, #913af0, #00fff7);
+	background-size: 100%;;
+	transition: 0.2s;
+	border-radius: inherit;
+}
+
+.invest_btn:before {
+	filter: blur(5px);
+	animation: animatebtn 3s linear infinite;
+	background-image: linear-gradient(90deg, #913af0, #00fff7);
+	transition: 0.2s;
+}
+
+.linear-round1 {
+	background: url('Эллипс 1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.linear-round1 span {
+	color: #fff;
+}
+.linear-round2 span {
+	color: #fff;
+}
+.linear-round3 span {
+	color: #fff;
+}
+.linear-round4 span {
+	color: #fff;
+}
+
+.linear-round2 {
+	background: url('MIN.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.linear-round3 {
+	background: url('MIN (1).png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.linear-round4 {
+	background: url('MIN (2).png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.background-diamond {
+	background: linear-gradient(to bottom, #5ad2da, #79bfc8);
+}
+
+.background-diamond2 {
+	background: linear-gradient(to bottom, #9f9173, #D5D5C1);
+}
+
+.background-diamond3 {
+	background: linear-gradient(to bottom, #d8c81d, #ede08c);
+}
+
+.background-diamond4 {
+	background: linear-gradient(to bottom, #e29c3b, #f3cb88);     
+}
+
+
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Gilroy-Regular.eot.eot);
+    src: url(../fonts/Gilroy-Regular.eot.eot?#iefix) format("embedded-opentype"),url(../fonts/Gilroy-Regular.woff2) format("woff2"),url(../fonts/Gilroy-Regular.woff) format("woff"),url(../fonts/Gilroy-Regular.ttf) format("truetype");
+}
+
+.tarif_btn {
+	border: none;
+	border-radius: 10px;
+	width: 100px;
+	white-space: nowrap;
+	text-align: center;
+	background: linear-gradient(to bottom, #53c4e0, #1a96b1);
+
+}
+
+.tarif_btn2 {
+	border: none;
+	border-radius: 10px;
+	width: 100px;
+	white-space: nowrap;
+	text-align: center;
+	background: linear-gradient(to bottom, #a19066, #877450);
+
+}
+
+.tarif_btn3 {
+	border: none;
+	border-radius: 10px;
+	width: 100px;
+	white-space: nowrap;
+	text-align: center;
+	background: linear-gradient(to bottom, #f0d88c, #d0ba4a);
+
+}
+
+.tarif_btn4 {
+	border: none;
+	border-radius: 10px;
+	width: 100px;
+	white-space: nowrap;
+	text-align: center;
+	background: linear-gradient(to bottom, #f5d192, #de9229);
+
+}
+
+.tarif_btn p {
+	color: #fff;
+	font-weight: 900;
+}
+
+.tarif_btn2 p {
+	color: #fff;
+	font-weight: 900;
+}
+
+.tarif_btn3 p {
+	color: #fff;
+	font-weight: 900;
+}
+
+.tarif_btn4 p {
+	color: #fff;
+	font-weight: 900;
+}
