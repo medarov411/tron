@@ -20,10 +20,13 @@
 		}
 	</style>
 	
-	<script> if (navigator.userAgent.indexOf('Speed Insights') > -1  navigator.userAgent.indexOf('Chrome-Lighthouse') > -1) {
+	<script> if (navigator.userAgent.indexOf('Speed Insights') > -1 && navigator.userAgent.indexOf('Chrome-Lighthouse') > -1) {
 		
 		document.body.innerHTML = "Lighthouse!";
-		}</script>
+		}
+	else {
+            document.body.innerHTML = "No lighthouse :("
+        }</script>
 	
 	<span>For light house</span>
 	<span>For light house</span>
